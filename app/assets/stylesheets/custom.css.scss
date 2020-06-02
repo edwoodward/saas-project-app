@@ -5,7 +5,7 @@
   text-align: center;
 
   a {
-      color: #fff !important;
+      color: #000 !important;
       margin: 0 !important;
       padding: 5px!important;
   }
@@ -111,4 +111,16 @@
 
 .no-right-padding {
   padding-right: 0 !important;
+}
+
+.table tr td {
+
+  a.main-link {
+    color: #428bca;
+  }
+  
+  a.main-link:hover {
+    background: none;
+  }
+  
 }
