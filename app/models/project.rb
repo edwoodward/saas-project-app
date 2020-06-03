@@ -1,6 +1,6 @@
 class Project < ApplicationRecord
   belongs_to :tenant
-  validate_uniqueness_of :title
+  validates_uniqueness_of :title
   validate :free_plan_can_only_have_one_project
 
   #temp method
