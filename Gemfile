@@ -10,6 +10,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 gem 'pg'
 gem 'devise'
 gem 'milia'
+gem 'aws-sdk'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -45,6 +46,7 @@ gem 'jquery-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv-rails'
 end
 
 group :development do
