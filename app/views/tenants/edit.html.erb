@@ -11,8 +11,7 @@
 
   <div class="form-group col-md-12 no-side-padding">
     <%= f.label :plan %>
-    <%= f.select :plan, options_for_select(Plan.options, @tenant.plan ), {}, 
-                  required: true, class: "form-control" %>
+    <%= f.select :plan, options_for_select(Plan.options, @tenant.plan ), {}, required: true, class: "form-control" %>
   </div>
 
   <% if @tenant.payment.blank? %>
