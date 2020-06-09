@@ -5,7 +5,7 @@
   text-align: center;
 
   a {
-      color: #000 !important;
+      color: #fff !important;
       margin: 0 !important;
       padding: 5px!important;
   }
@@ -63,7 +63,7 @@
   background-image: asset-url('building-project.jpg');
   background-size: cover;
   text-align: center;
-  color: #9b084b;
+  color: #0b4080;
   font-family: 'Helvetica Neue' !important;
   font-stretch: expanded;
   padding-top: 95px;
@@ -123,4 +123,22 @@
     background: none;
   }
   
+}
+
+.fa.fa-rocket {
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: red;
+  padding: 6px;
+}
+
+.logout {
+  padding-left: 0;
+}
+
+.navbar.navbar-static-top {
+  background: #000;
+  color: #fff !important;
+  padding-bottom: 5px;
 }
