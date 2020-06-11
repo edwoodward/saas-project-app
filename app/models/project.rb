@@ -13,7 +13,7 @@ class Project < ApplicationRecord
       if user.is_admin?
         tenant.projects
       else
-        user.projects.where(tenat_id: tenant.id)
+        user.projects.where(tenant_id: tenant.id)
       end
     else 
       if user.is_admin?
